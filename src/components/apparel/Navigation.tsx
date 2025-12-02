@@ -26,19 +26,19 @@ export function Navigation() {
 
           {/* Navigation Menu */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/" className="text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
+            <Link href="/" className="!text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
               Home
             </Link>
-            <Link href="#gallery" className="text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
+            <Link href="#gallery" className="!text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
               Design Gallery
             </Link>
-            <Link href="#upload" className="text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
+            <Link href="#upload" className="!text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
               Create Your Own
             </Link>
-            <Link href="#about" className="text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
+            <Link href="#about" className="!text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
               About Us
             </Link>
-            <Link href="#contact" className="text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
+            <Link href="#contact" className="!text-white hover:opacity-80 transition-opacity text-sm font-medium uppercase tracking-wide">
               Contact
             </Link>
           </div>
