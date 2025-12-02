@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "Shevita H Custom Apparel - Custom Shirts & Design Services",
+  description: "Transform your ideas into high-quality custom shirts and apparel. Professional results, simplified process. Upload your design or browse our gallery.",
 };
 
 export default function RootLayout({

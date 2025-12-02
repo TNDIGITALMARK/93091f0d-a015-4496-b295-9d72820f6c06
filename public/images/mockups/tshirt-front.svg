@@ -1,0 +1,21 @@
+<svg width="200" height="240" viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- T-shirt outline - front view ghost mannequin style -->
+  <path d="M50 40C50 40 60 30 70 25C80 20 90 20 100 20C110 20 120 20 130 25C140 30 150 40 150 40L170 60L170 200C170 210 160 220 150 220H50C40 220 30 210 30 200L30 60L50 40Z"
+        stroke="currentColor"
+        stroke-width="2"
+        fill="none"/>
+  <!-- Neckline -->
+  <path d="M80 35C85 28 92 25 100 25C108 25 115 28 120 35"
+        stroke="currentColor"
+        stroke-width="2"
+        fill="none"/>
+  <!-- Sleeves -->
+  <path d="M50 40L40 80C38 88 40 95 45 95L55 85"
+        stroke="currentColor"
+        stroke-width="2"
+        fill="none"/>
+  <path d="M150 40L160 80C162 88 160 95 155 95L145 85"
+        stroke="currentColor"
+        stroke-width="2"
+        fill="none"/>
+</svg>
