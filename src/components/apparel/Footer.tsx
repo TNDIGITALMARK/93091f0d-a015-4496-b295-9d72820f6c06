@@ -12,30 +12,24 @@ export function Footer() {
   };
 
   return (
-    <footer className="relative overflow-hidden bg-gradient-to-br from-navy-primary via-navy-dark to-black text-white">
-      {/* Modern geometric background decoration */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-10">
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-white rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-blue-300 rounded-full blur-3xl"></div>
-      </div>
-
-      <div className="container-custom relative z-10">
+    <footer className="relative bg-[#0f1e31] text-white">
+      <div className="container-custom">
         {/* Main Footer Content */}
         <div className="py-16 lg:py-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12">
-            {/* Brand Section - Takes more space */}
+            {/* Brand Section */}
             <div className="lg:col-span-4 space-y-6">
               <div>
                 <h3 className="font-black text-2xl lg:text-3xl mb-4 text-white tracking-tight" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                   SHEVITA H<br />APPAREL
                 </h3>
-                <p className="text-white/80 text-sm lg:text-base leading-relaxed max-w-sm">
+                <p className="text-white/70 text-sm lg:text-base leading-relaxed max-w-sm">
                   Your partner in creating high-quality custom apparel. From concept to finished product, we make the process simple and professional.
                 </p>
               </div>
 
               {/* Trust Badge */}
-              <div className="inline-flex flex-col gap-2 bg-white/10 backdrop-blur-sm rounded-xl px-5 py-4 border border-white/20">
+              <div className="inline-flex flex-col gap-2 bg-white/5 rounded-lg px-5 py-4 border border-white/10">
                 <p className="text-white/90 text-xs font-bold uppercase tracking-wider">Trusted by 500+ Customers</p>
                 <div className="flex items-center gap-1">
                   {[...Array(5)].map((_, i) => (
@@ -52,26 +46,26 @@ export function Footer() {
               <h4 className="font-bold text-sm lg:text-base mb-5 uppercase tracking-wider text-white">Quick Links</h4>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/" className="text-white/80 hover:text-white transition-all duration-300 flex items-center gap-2 group text-sm lg:text-base">
-                    <ArrowUp className="w-3 h-3 rotate-90 text-white/60 group-hover:text-white group-hover:translate-x-1 transition-all" />
+                  <Link href="/" className="text-white/70 hover:text-white transition-colors duration-200 flex items-center gap-2 group text-sm lg:text-base">
+                    <ArrowUp className="w-3 h-3 rotate-90 text-white/50 group-hover:text-white group-hover:translate-x-1 transition-all" />
                     <span>Home</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#gallery" className="text-white/80 hover:text-white transition-all duration-300 flex items-center gap-2 group text-sm lg:text-base">
-                    <ArrowUp className="w-3 h-3 rotate-90 text-white/60 group-hover:text-white group-hover:translate-x-1 transition-all" />
+                  <Link href="#gallery" className="text-white/70 hover:text-white transition-colors duration-200 flex items-center gap-2 group text-sm lg:text-base">
+                    <ArrowUp className="w-3 h-3 rotate-90 text-white/50 group-hover:text-white group-hover:translate-x-1 transition-all" />
                     <span>Design Gallery</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#upload" className="text-white/80 hover:text-white transition-all duration-300 flex items-center gap-2 group text-sm lg:text-base">
-                    <ArrowUp className="w-3 h-3 rotate-90 text-white/60 group-hover:text-white group-hover:translate-x-1 transition-all" />
+                  <Link href="#upload" className="text-white/70 hover:text-white transition-colors duration-200 flex items-center gap-2 group text-sm lg:text-base">
+                    <ArrowUp className="w-3 h-3 rotate-90 text-white/50 group-hover:text-white group-hover:translate-x-1 transition-all" />
                     <span>Upload Design</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#contact" className="text-white/80 hover:text-white transition-all duration-300 flex items-center gap-2 group text-sm lg:text-base">
-                    <ArrowUp className="w-3 h-3 rotate-90 text-white/60 group-hover:text-white group-hover:translate-x-1 transition-all" />
+                  <Link href="#contact" className="text-white/70 hover:text-white transition-colors duration-200 flex items-center gap-2 group text-sm lg:text-base">
+                    <ArrowUp className="w-3 h-3 rotate-90 text-white/50 group-hover:text-white group-hover:translate-x-1 transition-all" />
                     <span>Contact Us</span>
                   </Link>
                 </li>
@@ -82,25 +76,25 @@ export function Footer() {
             <div className="lg:col-span-3">
               <h4 className="font-bold text-sm lg:text-base mb-5 uppercase tracking-wider text-white">Get In Touch</h4>
               <div className="space-y-4">
-                <a href="mailto:custom@shevitaapparel.com" className="flex items-start gap-3 text-white/80 hover:text-white transition-colors group text-sm lg:text-base">
-                  <Mail className="w-4 h-4 lg:w-5 lg:h-5 text-white/70 group-hover:text-white mt-0.5 flex-shrink-0 transition-colors" />
+                <a href="mailto:custom@shevitaapparel.com" className="flex items-start gap-3 text-white/70 hover:text-white transition-colors group text-sm lg:text-base">
+                  <Mail className="w-4 h-4 lg:w-5 lg:h-5 text-white/60 group-hover:text-white mt-0.5 flex-shrink-0 transition-colors" />
                   <span className="break-all">custom@shevitaapparel.com</span>
                 </a>
-                <a href="tel:+15551234567" className="flex items-center gap-3 text-white/80 hover:text-white transition-colors group text-sm lg:text-base">
-                  <Phone className="w-4 h-4 lg:w-5 lg:h-5 text-white/70 group-hover:text-white flex-shrink-0 transition-colors" />
+                <a href="tel:+15551234567" className="flex items-center gap-3 text-white/70 hover:text-white transition-colors group text-sm lg:text-base">
+                  <Phone className="w-4 h-4 lg:w-5 lg:h-5 text-white/60 group-hover:text-white flex-shrink-0 transition-colors" />
                   <span>+1 (555) 123-4567</span>
                 </a>
-                <div className="flex items-start gap-3 text-white/80 text-sm lg:text-base">
-                  <MapPin className="w-4 h-4 lg:w-5 lg:h-5 text-white/70 mt-0.5 flex-shrink-0" />
+                <div className="flex items-start gap-3 text-white/70 text-sm lg:text-base">
+                  <MapPin className="w-4 h-4 lg:w-5 lg:h-5 text-white/60 mt-0.5 flex-shrink-0" />
                   <span>123 Custom Lane<br />Design City, DC 12345</span>
                 </div>
               </div>
             </div>
 
-            {/* Social & Newsletter */}
+            {/* Social & Actions */}
             <div className="lg:col-span-3">
               <h4 className="font-bold text-sm lg:text-base mb-5 uppercase tracking-wider text-white">Stay Connected</h4>
-              <p className="text-white/80 text-sm lg:text-base mb-5 leading-relaxed">
+              <p className="text-white/70 text-sm lg:text-base mb-5 leading-relaxed">
                 Follow us for the latest designs and exclusive offers.
               </p>
 
@@ -110,26 +104,26 @@ export function Footer() {
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 lg:w-12 lg:h-12 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-white hover:text-navy-primary transition-all duration-300 border border-white/20 hover:border-white group"
+                  className="w-11 h-11 lg:w-12 lg:h-12 bg-white/5 rounded-lg flex items-center justify-center hover:bg-white hover:text-[#0f1e31] transition-all duration-300 border border-white/10 hover:border-white group"
                   aria-label="LinkedIn"
                 >
-                  <Linkedin className="w-5 h-5 text-white group-hover:text-navy-primary transition-colors" />
+                  <Linkedin className="w-5 h-5 text-white group-hover:text-[#0f1e31] transition-colors" />
                 </a>
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 lg:w-12 lg:h-12 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-white hover:text-navy-primary transition-all duration-300 border border-white/20 hover:border-white group"
+                  className="w-11 h-11 lg:w-12 lg:h-12 bg-white/5 rounded-lg flex items-center justify-center hover:bg-white hover:text-[#0f1e31] transition-all duration-300 border border-white/10 hover:border-white group"
                   aria-label="Instagram"
                 >
-                  <Instagram className="w-5 h-5 text-white group-hover:text-navy-primary transition-colors" />
+                  <Instagram className="w-5 h-5 text-white group-hover:text-[#0f1e31] transition-colors" />
                 </a>
               </div>
 
               {/* Back to Top Button */}
               <button
                 onClick={scrollToTop}
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-xl transition-all duration-300 border border-white/20 hover:border-white/40 group text-sm font-semibold"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/5 hover:bg-white/10 rounded-lg transition-all duration-300 border border-white/10 hover:border-white/20 group text-sm font-semibold"
                 aria-label="Scroll to top"
               >
                 <ArrowUp className="w-4 h-4 text-white group-hover:-translate-y-1 transition-transform" />
@@ -139,23 +133,23 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar - Cleaner Design */}
-        <div className="border-t border-white/20 py-6 lg:py-8">
+        {/* Bottom Bar */}
+        <div className="border-t border-white/10 py-6 lg:py-8">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-4 lg:gap-6">
-            <p className="text-white/70 text-xs lg:text-sm text-center lg:text-left">
+            <p className="text-white/60 text-xs lg:text-sm text-center lg:text-left">
               © {currentYear} Shevita H Custom Apparel. All rights reserved.
             </p>
 
             <div className="flex flex-wrap justify-center items-center gap-4 lg:gap-6 text-xs lg:text-sm">
-              <Link href="/privacy" className="text-white/70 hover:text-white transition-colors whitespace-nowrap">
+              <Link href="/privacy" className="text-white/60 hover:text-white transition-colors whitespace-nowrap">
                 Privacy Policy
               </Link>
               <span className="text-white/30">•</span>
-              <Link href="/terms" className="text-white/70 hover:text-white transition-colors whitespace-nowrap">
+              <Link href="/terms" className="text-white/60 hover:text-white transition-colors whitespace-nowrap">
                 Terms of Service
               </Link>
               <span className="text-white/30">•</span>
-              <span className="text-white/70 whitespace-nowrap">
+              <span className="text-white/60 whitespace-nowrap">
                 Made with care
               </span>
             </div>
