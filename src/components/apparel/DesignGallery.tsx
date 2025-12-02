@@ -127,7 +127,7 @@ export function DesignGallery() {
                 className={`px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105 ${
                   activeCategory === category
                     ? 'bg-navy text-white shadow-lg scale-105'
-                    : 'bg-white text-gray-700 hover:bg-navy hover:text-white shadow-md border border-gray-200'
+                    : 'bg-white text-[#1e3a5f] hover:bg-navy hover:text-white shadow-md border border-gray-200'
                 }`}
               >
                 {category}

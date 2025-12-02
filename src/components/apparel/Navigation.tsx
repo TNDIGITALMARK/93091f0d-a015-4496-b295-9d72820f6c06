@@ -45,7 +45,7 @@ export function Navigation() {
 
           {/* CTA Button */}
           <Button
-            className="bg-white text-navy-primary hover:bg-gray-100 font-semibold text-sm px-6 py-2 uppercase tracking-wide"
+            className="bg-white text-[#1e3a5f] hover:bg-gray-100 hover:text-[#152d4a] font-semibold text-sm px-6 py-2 uppercase tracking-wide"
             asChild
           >
             <Link href="#upload">Start Order</Link>

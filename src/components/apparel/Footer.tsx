@@ -104,19 +104,19 @@ export function Footer() {
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 lg:w-12 lg:h-12 bg-white/5 rounded-lg flex items-center justify-center hover:bg-white hover:text-[#0f1e31] transition-all duration-300 border border-white/10 hover:border-white group"
+                  className="w-11 h-11 lg:w-12 lg:h-12 bg-white/5 rounded-lg flex items-center justify-center hover:bg-white transition-all duration-300 border border-white/10 hover:border-white group"
                   aria-label="LinkedIn"
                 >
-                  <Linkedin className="w-5 h-5 text-white group-hover:text-[#0f1e31] transition-colors" />
+                  <Linkedin className="w-5 h-5 text-white group-hover:text-[#1e3a5f] transition-colors" />
                 </a>
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 lg:w-12 lg:h-12 bg-white/5 rounded-lg flex items-center justify-center hover:bg-white hover:text-[#0f1e31] transition-all duration-300 border border-white/10 hover:border-white group"
+                  className="w-11 h-11 lg:w-12 lg:h-12 bg-white/5 rounded-lg flex items-center justify-center hover:bg-white transition-all duration-300 border border-white/10 hover:border-white group"
                   aria-label="Instagram"
                 >
-                  <Instagram className="w-5 h-5 text-white group-hover:text-[#0f1e31] transition-colors" />
+                  <Instagram className="w-5 h-5 text-white group-hover:text-[#1e3a5f] transition-colors" />
                 </a>
               </div>
 
