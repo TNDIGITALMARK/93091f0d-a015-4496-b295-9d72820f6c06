@@ -39,7 +39,8 @@ export function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               size="lg"
-              className="bg-white text-[#1e3a5f] hover:bg-gray-100 hover:text-[#1e3a5f] font-bold text-base px-8 py-6 uppercase tracking-wider shadow-lg"
+              variant="ghost"
+              className="bg-white !text-[#1e3a5f] hover:bg-gray-100 hover:!text-[#1e3a5f] font-bold text-base px-8 py-6 uppercase tracking-wider shadow-lg"
               asChild
             >
               <Link href="#gallery">View Designs</Link>
